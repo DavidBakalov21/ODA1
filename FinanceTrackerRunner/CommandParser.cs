@@ -8,14 +8,25 @@ public class CommandParser: ICommandParser
 {
     public string RecognizeCommand(string command)
     {
-        if (command=="money")
+        
+        if (command.StartsWith("add money"))
         {
             return "gainMoney"; 
-        }
-        else
+        } 
+        if (command.StartsWith("spend money"))
         {
-            return "exit";
+            return "spendMoney";
         }
-      
+        if (command.StartsWith("info"))
+        {
+            return "info";
+        }
+
+        if (command.StartsWith("exit"))
+        {
+            return "end";
+        }
+
+        return "";
     }
 }
