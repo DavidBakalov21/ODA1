@@ -1,0 +1,17 @@
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/bin/Debug/net8.0/FinanceTrackerRunner.deps.json
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/bin/Debug/net8.0/FinanceTrackerRunner.dll
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/bin/Debug/net8.0/FinanceTrackerRunner.pdb
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/bin/Debug/net8.0/Accounts.dll
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/bin/Debug/net8.0/DB.dll
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/bin/Debug/net8.0/Accounts.pdb
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/bin/Debug/net8.0/DB.pdb
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/FinanceTrackerRunner.csproj.AssemblyReference.cache
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/FinanceTrackerRunner.GeneratedMSBuildEditorConfig.editorconfig
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/FinanceTrackerRunner.AssemblyInfoInputs.cache
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/FinanceTrackerRunner.AssemblyInfo.cs
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/FinanceTrackerRunner.csproj.CoreCompileInputs.cache
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/FinanceT.D1C1C6AF.Up2Date
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/FinanceTrackerRunner.dll
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/refint/FinanceTrackerRunner.dll
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/FinanceTrackerRunner.pdb
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/ref/FinanceTrackerRunner.dll

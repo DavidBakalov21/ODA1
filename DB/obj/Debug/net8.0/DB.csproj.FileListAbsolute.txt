@@ -1,0 +1,11 @@
+/Users/daviddavid/RiderProjects/FinanceTracker/DB/bin/Debug/net8.0/DB.deps.json
+/Users/daviddavid/RiderProjects/FinanceTracker/DB/bin/Debug/net8.0/DB.dll
+/Users/daviddavid/RiderProjects/FinanceTracker/DB/bin/Debug/net8.0/DB.pdb
+/Users/daviddavid/RiderProjects/FinanceTracker/DB/obj/Debug/net8.0/DB.GeneratedMSBuildEditorConfig.editorconfig
+/Users/daviddavid/RiderProjects/FinanceTracker/DB/obj/Debug/net8.0/DB.AssemblyInfoInputs.cache
+/Users/daviddavid/RiderProjects/FinanceTracker/DB/obj/Debug/net8.0/DB.AssemblyInfo.cs
+/Users/daviddavid/RiderProjects/FinanceTracker/DB/obj/Debug/net8.0/DB.csproj.CoreCompileInputs.cache
+/Users/daviddavid/RiderProjects/FinanceTracker/DB/obj/Debug/net8.0/DB.dll
+/Users/daviddavid/RiderProjects/FinanceTracker/DB/obj/Debug/net8.0/refint/DB.dll
+/Users/daviddavid/RiderProjects/FinanceTracker/DB/obj/Debug/net8.0/DB.pdb
+/Users/daviddavid/RiderProjects/FinanceTracker/DB/obj/Debug/net8.0/ref/DB.dll

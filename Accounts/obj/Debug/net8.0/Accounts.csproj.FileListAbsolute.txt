@@ -1,0 +1,15 @@
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/bin/Debug/net8.0/Accounts.deps.json
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/bin/Debug/net8.0/Accounts.dll
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/bin/Debug/net8.0/Accounts.pdb
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/Accounts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/Accounts.AssemblyInfoInputs.cache
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/Accounts.AssemblyInfo.cs
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/Accounts.csproj.CoreCompileInputs.cache
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/Accounts.dll
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/refint/Accounts.dll
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/Accounts.pdb
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/ref/Accounts.dll
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/bin/Debug/net8.0/DB.dll
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/bin/Debug/net8.0/DB.pdb
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/Accounts.csproj.AssemblyReference.cache
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/Accounts.csproj.Up2Date

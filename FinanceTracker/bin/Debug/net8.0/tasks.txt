@@ -1,0 +1,1 @@
+JohnDoe,10000,USD,200;n;Groceries;1/1/2024 12:00:00 AM,300;m;Rent;2/1/2024 12:00:00 AM

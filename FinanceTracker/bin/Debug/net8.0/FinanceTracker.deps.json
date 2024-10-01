@@ -1,0 +1,74 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FinanceTracker/1.0.0": {
+        "dependencies": {
+          "Accounts": "1.0.0",
+          "DB": "1.0.0",
+          "FinanceTrackerRunner": "1.0.0"
+        },
+        "runtime": {
+          "FinanceTracker.dll": {}
+        }
+      },
+      "Accounts/1.0.0": {
+        "dependencies": {
+          "DB": "1.0.0"
+        },
+        "runtime": {
+          "Accounts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DB/1.0.0": {
+        "runtime": {
+          "DB.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "FinanceTrackerRunner/1.0.0": {
+        "dependencies": {
+          "Accounts": "1.0.0",
+          "DB": "1.0.0"
+        },
+        "runtime": {
+          "FinanceTrackerRunner.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FinanceTracker/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accounts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DB/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FinanceTrackerRunner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
