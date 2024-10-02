@@ -9,17 +9,25 @@ public class CommandParser : ICommandParser
 
         if (command.StartsWith("add money"))
         {
-            return "add";
+            return "add_money";
+        }
+
+        if (command.StartsWith("add account"))
+        {
+            return "add_account";
         }
         if (command.StartsWith("spend money"))
         {
             return "spend";
         }
-        if (command.StartsWith("info"))
+        if (command.StartsWith("info accounts"))
         {
-            return "info";
+            return "info_accounts";
         }
-
+        if (command.StartsWith("info transaction"))
+        {
+            return "info_transactions";
+        }
         if (command.StartsWith("exit"))
         {
             return "end";

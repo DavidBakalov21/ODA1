@@ -41,7 +41,7 @@ public class LoopRunner:ILoopRunner
             string command = Parser.RecognizeCommand(userInput);
             var argsList = Parser.getCommandArgs(userInput);
 
-            if (command == "add")
+            if (command == "add_money")
             {
                 //field validation needs to be added here
 
@@ -56,6 +56,14 @@ public class LoopRunner:ILoopRunner
                 //code for saving transactions will be moved to the end of the if statement
                 //to not duplicate code. Operation specific logic will be handled here
             }
+            else if (command == "add_account")
+            {
+                Currency currency=(Currency)Enum.Parse(typeof(Currency), argsList[2]);
+                String accountName=argsList[3];
+                Account newAccount=new Account(accountName, 0,  currency);
+                Organizer.AddAccount(newAccount);
+                Organizer.SaveAccounts();
+            }
             else if (command == "spend")
             {
                 //field validation needs to be added here
@@ -69,16 +77,22 @@ public class LoopRunner:ILoopRunner
                 currentAccount.AddTransaction(new Transaction(transactionType, amount, accountName, comment, new DateTime(2024, 02, 01)));
                 Organizer.SaveAccounts();
             }
-            else if (command == "info")
+            else if(command == "info_transactions")
+            {
+                foreach (var account in Organizer.Accounts)
+                {
+                    Console.WriteLine($"Account Name: {account.Name}");
+                    foreach (var transaction in account.Transactions)
+                    {
+                        Console.WriteLine($"Transaction: {transaction.Quantity} {transaction.Comment} on {transaction.Date}, Account:{transaction.AccountName}");
+                    }
+                }
+            }
+            else if (command == "info_accounts")
             {
                 foreach (var account in Organizer.Accounts)
                 {
                     Console.WriteLine($"Account Name: {account.Name}, Balance: {account.Money}, Currency: {account.Currency}");
-
-                    foreach (var transaction in account.Transactions)
-                    {
-                        Console.WriteLine($"Transaction: {transaction.Type} {transaction.Quantity} {transaction.Comment} on {transaction.Date}, Account:{transaction.AccountName}");
-                    }
                 }
             }
             else if (command == "end")
