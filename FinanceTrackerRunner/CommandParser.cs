@@ -1,21 +1,19 @@
-﻿namespace FinanceTrackerRunner;
-
-interface ICommandParser
+﻿interface ICommandParser
 {
     string RecognizeCommand(string command);
 }
-public class CommandParser: ICommandParser
+public class CommandParser : ICommandParser
 {
     public string RecognizeCommand(string command)
     {
-        
+
         if (command.StartsWith("add money"))
         {
-            return "gainMoney"; 
-        } 
+            return "add";
+        }
         if (command.StartsWith("spend money"))
         {
-            return "spendMoney";
+            return "spend";
         }
         if (command.StartsWith("info"))
         {
@@ -28,5 +26,13 @@ public class CommandParser: ICommandParser
         }
 
         return "";
+    }
+
+    public List<String> getCommandArgs(String command)
+    {
+        string[] commandArgs = command.Split(' ');
+        List<String> commandArgsList = commandArgs.ToList();
+
+        return commandArgsList;
     }
 }

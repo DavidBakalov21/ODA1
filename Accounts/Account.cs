@@ -1,6 +1,6 @@
 ﻿namespace Accounts;
 
-public interface IAccount{
+public interface IAccount {
     String Name {get; set;}
     Double Money {get; set;}
     Currency Currency {get; set;}
@@ -10,7 +10,7 @@ public interface IAccount{
     void AddTransaction(Transaction transaction);
 }
 
-public class Account: IAccount{
+public class Account: IAccount {
     public string Name { get; set; }
     public double Money { get; set; }
     public Currency Currency { get; set; }
