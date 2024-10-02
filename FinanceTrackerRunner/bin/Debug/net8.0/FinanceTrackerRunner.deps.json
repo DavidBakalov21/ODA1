@@ -16,9 +16,6 @@
         }
       },
       "Accounts/1.0.0": {
-        "dependencies": {
-          "DB": "1.0.0"
-        },
         "runtime": {
           "Accounts.dll": {
             "assemblyVersion": "1.0.0",
@@ -27,6 +24,9 @@
         }
       },
       "DB/1.0.0": {
+        "dependencies": {
+          "Accounts": "1.0.0"
+        },
         "runtime": {
           "DB.dll": {
             "assemblyVersion": "1.0.0",

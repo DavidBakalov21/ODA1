@@ -1,17 +1,18 @@
-﻿namespace DB;
+﻿using Accounts;
 
-public interface IDataBase
-{
-    //need to remove path
-    String FilePath { get; set; }
-    void Save(List<String> tasks);
-    List<String> Load();
-}
+namespace DB;
 
-public class Database: IDataBase {
 
-    //need to remove path
-    public string FilePath { get; set; }  = "tasks.txt";
+
+public class FileAccountStorage: IAccountStorage {
+
+    
+    public string FilePath { get;  }
+
+    public FileAccountStorage(String filePath)
+    {
+        FilePath = filePath;
+    }
 
     public void Save(List<String> tasks){
       

@@ -20,3 +20,4 @@
 /Users/daviddavid/RiderProjects/FinanceTracker/FinanceTracker/obj/Debug/net8.0/ref/FinanceTracker.dll
 /Users/daviddavid/RiderProjects/FinanceTracker/FinanceTracker/bin/Debug/net8.0/FinanceTrackerRunner.dll
 /Users/daviddavid/RiderProjects/FinanceTracker/FinanceTracker/bin/Debug/net8.0/FinanceTrackerRunner.pdb
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTracker/obj/Debug/net8.0/FinanceTracker.sourcelink.json

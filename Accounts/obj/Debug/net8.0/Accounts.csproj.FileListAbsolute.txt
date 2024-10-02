@@ -9,7 +9,4 @@
 /Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/refint/Accounts.dll
 /Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/Accounts.pdb
 /Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/ref/Accounts.dll
-/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/bin/Debug/net8.0/DB.dll
-/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/bin/Debug/net8.0/DB.pdb
-/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/Accounts.csproj.AssemblyReference.cache
-/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/Accounts.csproj.Up2Date
+/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/Accounts.sourcelink.json

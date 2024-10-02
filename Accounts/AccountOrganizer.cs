@@ -1,5 +1,4 @@
 namespace Accounts;
-using DB;
 public interface IAccountOrganizer{
     public void LoadAccounts();
     public void SaveAccounts();
@@ -8,9 +7,16 @@ public interface IAccountOrganizer{
     public Account GetAccount(String account);
 }
 
-public class AccountsOrganizer: IAccountOrganizer{
+public class AccountsOrganizer: IAccountOrganizer
+{
+    private IAccountStorage storage;
 
-    private IDataBase db = new Database();
+    public AccountsOrganizer(IAccountStorage storage)
+    {
+        this.storage = storage;
+    }
+    
+    
     public List<Account> Accounts = new List<Account>();
 
     public void AddAccount(Account account)
@@ -32,7 +38,7 @@ public class AccountsOrganizer: IAccountOrganizer{
     }
     public void LoadAccounts()
     {
-        List<String> rawAccounts = db.Load();
+        List<String> rawAccounts = storage.Load();
 
         foreach (var rawAccount in rawAccounts)
         {
@@ -72,7 +78,7 @@ public class AccountsOrganizer: IAccountOrganizer{
             }
             dataToSave.Add(formattedAccount);
         }
-        db.Save(dataToSave);
+        storage.Save(dataToSave);
     }
 
 }

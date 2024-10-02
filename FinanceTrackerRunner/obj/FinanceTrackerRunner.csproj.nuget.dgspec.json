@@ -25,11 +25,7 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {
-              "/Users/daviddavid/RiderProjects/FinanceTracker/DB/DB.csproj": {
-                "projectPath": "/Users/daviddavid/RiderProjects/FinanceTracker/DB/DB.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -87,7 +83,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/Accounts.csproj": {
+                "projectPath": "/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/Accounts.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

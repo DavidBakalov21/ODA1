@@ -15,3 +15,4 @@
 /Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/refint/FinanceTrackerRunner.dll
 /Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/FinanceTrackerRunner.pdb
 /Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/ref/FinanceTrackerRunner.dll
+/Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/FinanceTrackerRunner.sourcelink.json

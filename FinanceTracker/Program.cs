@@ -9,13 +9,14 @@ class Program
 {
     static void Main(string[] args)
     {
-      //  LoopRunner runner = new LoopRunner();
-        //runner.RunLoop();
+        AccountsOrganizer organizer = new AccountsOrganizer(new FileAccountStorage("tasks.txt"));
+       LoopRunner runner = new LoopRunner(organizer);
+       runner.RunLoop();
         
        
      //   Console.WriteLine("Hello World!"); 
         //AccountsOrganizer organizer = new AccountsOrganizer();
-        AccountsOrganizer organizer2 = new AccountsOrganizer();
+        
         //Account johnDoe = new Account("Acc1", 10000, Currency.USD);
         //johnDoe.addTransaction(new Transaction(200, "n", "Groceries", new DateTime(2024, 01, 01)));
         //johnDoe.addTransaction(new Transaction(300, "m", "Rent", new DateTime(2024, 02, 01)));
@@ -23,7 +24,7 @@ class Program
        // organizer.addAccount(johnDoe);
        
         //organizer.SaveAccounts();
-        
+        /*
         organizer2.LoadAccounts();
         foreach (var account in organizer2.Accounts)
         {
@@ -33,5 +34,7 @@ class Program
                 Console.WriteLine($"Transaction: {transaction.Quantity} {transaction.Comment} on {transaction.Date}, Account:{transaction.AccountName}");
             }
         }
+        */
     }
+    
 }
