@@ -38,7 +38,7 @@ public class CommandExecutor: ICommandExecutor
             Console.WriteLine($"Account Name: {account.Name}");
             foreach (var transaction in account.Transactions)
             {
-                Console.WriteLine($"Transaction: {transaction.Quantity} {transaction.Comment} on {transaction.Date}, Account:{transaction.AccountName}");
+                Console.WriteLine($"Transaction:{transaction.Type} {transaction.Quantity} {transaction.Comment} on {transaction.Date}, Account:{transaction.AccountName}");
             }
         }
     }
@@ -85,7 +85,7 @@ public class CommandExecutor: ICommandExecutor
                 
                     foreach (var transaction in account.Transactions)
                     {
-                        writer.WriteLine($"Transaction: {transaction.Quantity} {transaction.Comment} on {transaction.Date}, Account: {transaction.AccountName}");
+                        writer.WriteLine($"Transaction:{transaction.Type} {transaction.Quantity} {transaction.Comment} on {transaction.Date}, Account: {transaction.AccountName}");
                     }
 
                     writer.WriteLine(); // Adds an empty line between accounts
@@ -118,5 +118,50 @@ public class CommandExecutor: ICommandExecutor
         Organizer.SaveAccounts();
         //code for saving transactions will be moved to the end of the if statement
         //to not duplicate code. Operation specific logic will be handled here
+    }
+
+    public void ShowActions()
+    {
+        Console.WriteLine("info: View account details (account name, currency, balance).");
+        Console.WriteLine("convert <target_currency>: Convert the account balance to the specified currency (for accounts in foreign currencies).");
+        Console.WriteLine("history: Display a list of transactions associated with the account.");
+    }
+
+    public void Convert(List<String> argsList)
+    {
+        String accountName = argsList[2];
+        String currencyToConvert = argsList[3];
+        Account account = Organizer.GetAccount(accountName);
+        account.Currency=(Currency)Enum.Parse(typeof(Currency), currencyToConvert);
+        Organizer.SaveAccounts();
+        Console.WriteLine("Converted account balance to currency: " + account.Currency);
+    }
+
+    public void ShowActionHistory(List<String> argsList)
+    {
+        if (argsList.Count < 3)
+        {
+            return;
+        }
+        String accountName = argsList[2];
+        Account account = Organizer.GetAccount(accountName);
+        if (account == null)
+        {
+            return;
+        }
+        foreach (var transaction in account.Transactions)
+        {
+            Console.WriteLine($"Transaction:{transaction.Type} {transaction.Quantity} {transaction.Comment} on {transaction.Date}, Account:{transaction.AccountName}");
+        }   
+    }
+    public void ShowAccountData(List<String> argsList)
+    {
+        String accountName = argsList[2];
+        Account account = Organizer.GetAccount(accountName);
+        Console.WriteLine($"Account Name: {account.Name}, Balance: {account.Money}, Currency: {account.Currency}");
+        foreach (var transaction in account.Transactions)
+        {
+            Console.WriteLine($"Transaction:{transaction.Type} {transaction.Quantity} {transaction.Comment} on {transaction.Date}, Account:{transaction.AccountName}");
+        }
     }
 }

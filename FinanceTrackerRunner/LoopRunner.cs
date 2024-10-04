@@ -66,6 +66,22 @@ public class LoopRunner:ILoopRunner
             {
                 Executor.ExportTransactions();
             }
+            else if (userInput.StartsWith("options"))
+            {
+                Executor.ShowActions();
+            }
+            else if (userInput.StartsWith("action info"))
+            {
+                Executor.ShowAccountData(argsList);
+            }
+            else if (userInput.StartsWith("action convert"))
+            {
+                Executor.Convert(argsList);
+            }
+            else if (userInput.StartsWith("action history"))
+            {
+                Executor.ShowActionHistory(argsList);
+            }
             else if (userInput.StartsWith("exit"))
             {
                 Console.WriteLine("Are you sure you want to exit? (y/n): ");
