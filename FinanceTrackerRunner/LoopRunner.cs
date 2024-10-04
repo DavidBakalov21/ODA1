@@ -9,10 +9,12 @@ public interface ILoopRunner
 public class LoopRunner:ILoopRunner
 {
     public AccountsOrganizer Organizer { get; }
-    
+    private CommandExecutor Executor { get; }
     public LoopRunner(AccountsOrganizer accountsOrganizer)
     {
         Organizer = accountsOrganizer;
+        Executor = new CommandExecutor(); 
+        Executor.SetOrganizer(accountsOrganizer);
     }
     
     public CommandParser Parser { get; } = new CommandParser();
@@ -37,65 +39,34 @@ public class LoopRunner:ILoopRunner
         {
             Console.WriteLine("Enter a command: ");
             userInput = Console.ReadLine();
-
-            string command = Parser.RecognizeCommand(userInput);
+            
             var argsList = Parser.getCommandArgs(userInput);
 
-            if (command == "add_money")
+            if (userInput.StartsWith("add money"))
             {
-                //field validation needs to be added here
-
-                String transactionType = argsList[0];
-                Double amount = double.Parse(argsList[2]);
-                String accountName = argsList[3];
-                String comment = argsList[4];
-
-                currentAccount.AddMoney(amount);
-                currentAccount.AddTransaction(new Transaction(transactionType, amount, accountName, comment, new DateTime(2024, 02, 01)));
-                Organizer.SaveAccounts();
-                //code for saving transactions will be moved to the end of the if statement
-                //to not duplicate code. Operation specific logic will be handled here
+                Executor.AddMoney(currentAccount, argsList);
             }
-            else if (command == "add_account")
+            else if (userInput.StartsWith("add account"))
             {
-                Currency currency=(Currency)Enum.Parse(typeof(Currency), argsList[2]);
-                String accountName=argsList[3];
-                Account newAccount=new Account(accountName, 0,  currency);
-                Organizer.AddAccount(newAccount);
-                Organizer.SaveAccounts();
+                Executor.AddAccount(argsList);
             }
-            else if (command == "spend")
+            else if (userInput.StartsWith("spend money"))
             {
-                //field validation needs to be added here
-
-                String transactionType = argsList[0];
-                Double amount = double.Parse(argsList[2]);
-                String accountName = argsList[3];
-                String comment = argsList[4];
-
-                currentAccount.TakeMoney(amount);
-                currentAccount.AddTransaction(new Transaction(transactionType, amount, accountName, comment, new DateTime(2024, 02, 01)));
-                Organizer.SaveAccounts();
+                Executor.Spend(currentAccount, argsList);
             }
-            else if(command == "info_transactions")
+            else if(userInput.StartsWith("info transaction"))
             {
-                foreach (var account in Organizer.Accounts)
-                {
-                    Console.WriteLine($"Account Name: {account.Name}");
-                    foreach (var transaction in account.Transactions)
-                    {
-                        Console.WriteLine($"Transaction: {transaction.Quantity} {transaction.Comment} on {transaction.Date}, Account:{transaction.AccountName}");
-                    }
-                }
+                Executor.InfoTransactions();
             }
-            else if (command == "info_accounts")
+            else if (userInput.StartsWith("info accounts"))
             {
-                foreach (var account in Organizer.Accounts)
-                {
-                    Console.WriteLine($"Account Name: {account.Name}, Balance: {account.Money}, Currency: {account.Currency}");
-                }
+                Executor.InfoAccounts();
             }
-            else if (command == "end")
+            else if (userInput.StartsWith("export transactions"))
+            {
+                Executor.ExportTransactions();
+            }
+            else if (userInput.StartsWith("exit"))
             {
                 Console.WriteLine("Are you sure you want to exit? (y/n): ");
                 userInput = Console.ReadLine();

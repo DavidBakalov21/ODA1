@@ -8,7 +8,7 @@ using FinanceTrackerRunner;
 class Program
 {
     static void Main(string[] args)
-    {
+    { 
         
         AccountsOrganizer organizer = new AccountsOrganizer(new FileAccountStorage("tasks.txt"));
       

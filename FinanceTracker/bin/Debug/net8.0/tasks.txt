@@ -1,2 +1,3 @@
-Acc1,10090,USD,add;90;Acc1;rtyu;2/1/2024 12:00:00 AM
-sdd,0,USD
+Acc1,10180,USD,add;90;Acc1;rtyu;2/1/2024 12:00:00 AM,add;90;Acc1;to;2/1/2024 12:00:00 AM,add;90;sdd;try;2/1/2024 12:00:00 AM,add;80;sdd;more;2/1/2024 12:00:00 AM
+sdd,170,USD
+add money 800 nm rreer,0,USD,add;8000;ffff;oo;2/1/2024 12:00:00 AM

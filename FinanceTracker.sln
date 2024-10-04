@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammRunner", "ProgrammR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceTrackerRunner", "FinanceTrackerRunner\FinanceTrackerRunner.csproj", "{B26CC19E-0B42-411E-AF7D-D82D6CAD92DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Profile", "Profile\Profile.csproj", "{97411CF8-BC69-4D79-B9A8-35F432CBCF08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{B26CC19E-0B42-411E-AF7D-D82D6CAD92DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B26CC19E-0B42-411E-AF7D-D82D6CAD92DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B26CC19E-0B42-411E-AF7D-D82D6CAD92DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97411CF8-BC69-4D79-B9A8-35F432CBCF08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97411CF8-BC69-4D79-B9A8-35F432CBCF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97411CF8-BC69-4D79-B9A8-35F432CBCF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97411CF8-BC69-4D79-B9A8-35F432CBCF08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
