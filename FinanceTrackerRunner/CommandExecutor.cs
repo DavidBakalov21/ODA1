@@ -46,6 +46,10 @@ public class CommandExecutor: ICommandExecutor
     public void Spend(Account currentAccount, List<String> argsList)
     {
         //field validation needs to be added here
+        if (argsList.Count<5)
+        {
+            return;
+        }
         String transactionType = argsList[0];
         Double amount = double.Parse(argsList[2]);
         String accountName = argsList[3];
@@ -66,6 +70,10 @@ public class CommandExecutor: ICommandExecutor
 
     public void AddAccount(List<String> argsList)
     {
+        if (argsList.Count<4)
+        {
+            return;
+        }
         Currency currency=(Currency)Enum.Parse(typeof(Currency), argsList[2]);
         String accountName=argsList[3];
         Account newAccount=new Account(accountName, 0,  currency);
@@ -88,7 +96,7 @@ public class CommandExecutor: ICommandExecutor
                         writer.WriteLine($"Transaction:{transaction.Type} {transaction.Quantity} {transaction.Comment} on {transaction.Date}, Account: {transaction.AccountName}");
                     }
 
-                    writer.WriteLine(); // Adds an empty line between accounts
+                    writer.WriteLine(); 
                 }
             }
 
@@ -101,6 +109,10 @@ public class CommandExecutor: ICommandExecutor
     }
     public void AddMoney(Account currentAccount, List<String> argsList)
     {
+        if (argsList.Count<5)
+        {
+            return;
+        }
         //field validation needs to be added here
         String transactionType = argsList[0];
         Double amount = double.Parse(argsList[2]);
@@ -129,12 +141,21 @@ public class CommandExecutor: ICommandExecutor
 
     public void Convert(List<String> argsList)
     {
+        if (argsList.Count < 3)
+        {
+            return;
+        }
         String accountName = argsList[2];
         String currencyToConvert = argsList[3];
         Account account = Organizer.GetAccount(accountName);
-        account.Currency=(Currency)Enum.Parse(typeof(Currency), currencyToConvert);
+        if (account == null)
+        {
+            return;
+        }
+
+        account.ExchangeCurrency((Currency)Enum.Parse(typeof(Currency), currencyToConvert));
         Organizer.SaveAccounts();
-        Console.WriteLine("Converted account balance to currency: " + account.Currency);
+        //Console.WriteLine("Converted account balance to currency: " + account.Currency);
     }
 
     public void ShowActionHistory(List<String> argsList)
@@ -156,8 +177,16 @@ public class CommandExecutor: ICommandExecutor
     }
     public void ShowAccountData(List<String> argsList)
     {
+        if (argsList.Count < 3)
+        {
+            return;
+        }
         String accountName = argsList[2];
         Account account = Organizer.GetAccount(accountName);
+        if (account == null)
+        {
+            return;
+        }
         Console.WriteLine($"Account Name: {account.Name}, Balance: {account.Money}, Currency: {account.Currency}");
         foreach (var transaction in account.Transactions)
         {
