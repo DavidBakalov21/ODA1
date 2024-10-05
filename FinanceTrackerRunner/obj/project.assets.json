@@ -5,6 +5,9 @@
       "Accounts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Profile": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Accounts.dll": {}
         },
@@ -24,6 +27,16 @@
         "runtime": {
           "bin/placeholder/DB.dll": {}
         }
+      },
+      "Profile/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Profile.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Profile.dll": {}
+        }
       }
     }
   },
@@ -37,6 +50,11 @@
       "type": "project",
       "path": "../DB/DB.csproj",
       "msbuildProject": "../DB/DB.csproj"
+    },
+    "Profile/1.0.0": {
+      "type": "project",
+      "path": "../Profile/Profile.csproj",
+      "msbuildProject": "../Profile/Profile.csproj"
     }
   },
   "projectFileDependencyGroups": {
