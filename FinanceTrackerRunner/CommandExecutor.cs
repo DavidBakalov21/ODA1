@@ -5,12 +5,11 @@ namespace FinanceTrackerRunner;
 
 public interface ICommandExecutor
 {
-    public void InfoAccounts();
-    public void InfoTransactions();
+    public void InfoAccounts(List<Account> accounts);
+    public void InfoTransactions(List<Account> accounts);
     public void Spend(Account currentAccount, List<String> argsList);
     public void AddAccount(List<String> argsList);
     public void AddMoney(Account currentAccount, List<String> argsList);
-
     public void SetOrganizer(AccountsOrganizer organizer);
 
 }
@@ -23,17 +22,17 @@ public class CommandExecutor: ICommandExecutor
         Organizer = organizer;
     }
 
-    public void InfoAccounts()
+    public void InfoAccounts(List<Account> accounts)
     {
-        foreach (var account in Organizer.Accounts)
+        foreach (var account in accounts)
         {
             Console.WriteLine($"Account Name: {account.Name}, Balance: {account.Money}, Currency: {account.Currency}");
         }
     }
 
-    public void InfoTransactions()
+    public void InfoTransactions(List<Account> accounts)
     {
-        foreach (var account in Organizer.Accounts)
+        foreach (var account in accounts)
         {
             Console.WriteLine($"Account Name: {account.Name}");
             foreach (var transaction in account.Transactions)
@@ -46,14 +45,16 @@ public class CommandExecutor: ICommandExecutor
     public void Spend(Account currentAccount, List<String> argsList)
     {
         //field validation needs to be added here
-        if (argsList.Count<5)
+        if (argsList.Count < 5)
         {
             return;
         }
+
         String transactionType = argsList[0];
         Double amount = double.Parse(argsList[2]);
         String accountName = argsList[3];
         String comment = argsList[4];
+
         try
         {
             Organizer.GetAccount(accountName).TakeMoney(amount);
@@ -64,13 +65,13 @@ public class CommandExecutor: ICommandExecutor
         } 
 
         //currentAccount.TakeMoney(amount);
-        currentAccount.AddTransaction(new Transaction(transactionType, amount, accountName, comment, new DateTime(2024, 02, 01)));
+        currentAccount.AddTransaction(new Transaction(transactionType, amount, accountName, comment, DateTime.Today));
         Organizer.SaveAccounts();
     }
 
     public void AddAccount(List<String> argsList)
     {
-        if (argsList.Count<4)
+        if (argsList.Count < 4)
         {
             return;
         }
@@ -109,7 +110,7 @@ public class CommandExecutor: ICommandExecutor
     }
     public void AddMoney(Account currentAccount, List<String> argsList)
     {
-        if (argsList.Count<5)
+        if (argsList.Count < 5)
         {
             return;
         }

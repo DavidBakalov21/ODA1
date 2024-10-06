@@ -10,10 +10,10 @@ class Program
     static void Main(string[] args)
     { 
         
-        AccountsOrganizer organizer = new AccountsOrganizer(new FileAccountStorage("tasks.txt"));
+       //AccountsOrganizer organizer = new AccountsOrganizer(new FileAccountStorage("tasks.txt"));
       
-       LoopRunner runner = new LoopRunner(organizer);
-       runner.RunLoop();
+       //LoopRunner runner = new LoopRunner(organizer);
+       //runner.RunLoop();
     }
     
 }

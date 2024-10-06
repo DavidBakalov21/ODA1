@@ -1,149 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/daviddavid/RiderProjects/FinanceTracker/DB/DB.csproj": {}
+    "C:\\Users\\Gamer\\Documents\\gamer directories\\university stuff\\ODA\\ODA1\\DB\\DB.csproj": {}
   },
   "projects": {
-    "/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/Accounts.csproj": {
+    "C:\\Users\\Gamer\\Documents\\gamer directories\\university stuff\\ODA\\ODA1\\Accounts\\Accounts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/Accounts.csproj",
+        "projectUniqueName": "C:\\Users\\Gamer\\Documents\\gamer directories\\university stuff\\ODA\\ODA1\\Accounts\\Accounts.csproj",
         "projectName": "Accounts",
-        "projectPath": "/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/Accounts.csproj",
-        "packagesPath": "/Users/daviddavid/.nuget/packages/",
-        "outputPath": "/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/",
+        "projectPath": "C:\\Users\\Gamer\\Documents\\gamer directories\\university stuff\\ODA\\ODA1\\Accounts\\Accounts.csproj",
+        "packagesPath": "C:\\Users\\Gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gamer\\Documents\\gamer directories\\university stuff\\ODA\\ODA1\\Accounts\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/daviddavid/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "/Users/daviddavid/RiderProjects/FinanceTracker/Profile/Profile.csproj": {
-                "projectPath": "/Users/daviddavid/RiderProjects/FinanceTracker/Profile/Profile.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/daviddavid/RiderProjects/FinanceTracker/DB/DB.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/daviddavid/RiderProjects/FinanceTracker/DB/DB.csproj",
-        "projectName": "DB",
-        "projectPath": "/Users/daviddavid/RiderProjects/FinanceTracker/DB/DB.csproj",
-        "packagesPath": "/Users/daviddavid/.nuget/packages/",
-        "outputPath": "/Users/daviddavid/RiderProjects/FinanceTracker/DB/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/daviddavid/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/Accounts.csproj": {
-                "projectPath": "/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/Accounts.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "/Users/daviddavid/RiderProjects/FinanceTracker/Profile/Profile.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/daviddavid/RiderProjects/FinanceTracker/Profile/Profile.csproj",
-        "projectName": "Profile",
-        "projectPath": "/Users/daviddavid/RiderProjects/FinanceTracker/Profile/Profile.csproj",
-        "packagesPath": "/Users/daviddavid/.nuget/packages/",
-        "outputPath": "/Users/daviddavid/RiderProjects/FinanceTracker/Profile/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/daviddavid/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -156,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -182,7 +59,70 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Gamer\\Documents\\gamer directories\\university stuff\\ODA\\ODA1\\DB\\DB.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Gamer\\Documents\\gamer directories\\university stuff\\ODA\\ODA1\\DB\\DB.csproj",
+        "projectName": "DB",
+        "projectPath": "C:\\Users\\Gamer\\Documents\\gamer directories\\university stuff\\ODA\\ODA1\\DB\\DB.csproj",
+        "packagesPath": "C:\\Users\\Gamer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gamer\\Documents\\gamer directories\\university stuff\\ODA\\ODA1\\DB\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Gamer\\Documents\\gamer directories\\university stuff\\ODA\\ODA1\\Accounts\\Accounts.csproj": {
+                "projectPath": "C:\\Users\\Gamer\\Documents\\gamer directories\\university stuff\\ODA\\ODA1\\Accounts\\Accounts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

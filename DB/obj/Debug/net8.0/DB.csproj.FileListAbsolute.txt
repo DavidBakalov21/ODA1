@@ -14,3 +14,19 @@
 /Users/daviddavid/RiderProjects/FinanceTracker/DB/obj/Debug/net8.0/DB.csproj.AssemblyReference.cache
 /Users/daviddavid/RiderProjects/FinanceTracker/DB/obj/Debug/net8.0/DB.sourcelink.json
 /Users/daviddavid/RiderProjects/FinanceTracker/DB/obj/Debug/net8.0/DB.csproj.Up2Date
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\obj\Debug\net8.0\DB.csproj.AssemblyReference.cache
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\obj\Debug\net8.0\DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\obj\Debug\net8.0\DB.AssemblyInfoInputs.cache
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\obj\Debug\net8.0\DB.AssemblyInfo.cs
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\obj\Debug\net8.0\DB.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\obj\Debug\net8.0\DB.sourcelink.json
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\obj\Debug\net8.0\DB.dll
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\obj\Debug\net8.0\refint\DB.dll
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\obj\Debug\net8.0\DB.pdb
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\bin\Debug\net8.0\DB.deps.json
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\bin\Debug\net8.0\DB.dll
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\bin\Debug\net8.0\DB.pdb
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\bin\Debug\net8.0\Accounts.dll
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\bin\Debug\net8.0\Accounts.pdb
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\obj\Debug\net8.0\DB.csproj.CopyComplete
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\DB\obj\Debug\net8.0\ref\DB.dll

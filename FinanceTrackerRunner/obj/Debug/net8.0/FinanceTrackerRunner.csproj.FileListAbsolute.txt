@@ -16,3 +16,12 @@
 /Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/FinanceTrackerRunner.pdb
 /Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/ref/FinanceTrackerRunner.dll
 /Users/daviddavid/RiderProjects/FinanceTracker/FinanceTrackerRunner/obj/Debug/net8.0/FinanceTrackerRunner.sourcelink.json
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTrackerRunner\obj\Debug\net8.0\FinanceTrackerRunner.csproj.AssemblyReference.cache
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTrackerRunner\obj\Debug\net8.0\FinanceTrackerRunner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTrackerRunner\obj\Debug\net8.0\FinanceTrackerRunner.AssemblyInfoInputs.cache
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTrackerRunner\obj\Debug\net8.0\FinanceTrackerRunner.AssemblyInfo.cs
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTrackerRunner\obj\Debug\net8.0\FinanceTrackerRunner.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTrackerRunner\obj\Debug\net8.0\FinanceTrackerRunner.sourcelink.json
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTrackerRunner\obj\Debug\net8.0\FinanceTrackerRunner.dll
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTrackerRunner\obj\Debug\net8.0\refint\FinanceTrackerRunner.dll
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTrackerRunner\obj\Debug\net8.0\FinanceTrackerRunner.pdb

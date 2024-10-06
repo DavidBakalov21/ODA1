@@ -1,71 +1,50 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
-      "Profile/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "compile": {
-          "bin/placeholder/Profile.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Profile.dll": {}
-        }
-      }
-    }
+    "net8.0": {}
   },
-  "libraries": {
-    "Profile/1.0.0": {
-      "type": "project",
-      "path": "../Profile/Profile.csproj",
-      "msbuildProject": "../Profile/Profile.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": [
-      "Profile >= 1.0.0"
-    ]
+    "net8.0": []
   },
   "packageFolders": {
-    "/Users/daviddavid/.nuget/packages/": {}
+    "C:\\Users\\Gamer\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/Accounts.csproj",
+      "projectUniqueName": "C:\\Users\\Gamer\\Documents\\gamer directories\\university stuff\\ODA\\ODA1\\Accounts\\Accounts.csproj",
       "projectName": "Accounts",
-      "projectPath": "/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/Accounts.csproj",
-      "packagesPath": "/Users/daviddavid/.nuget/packages/",
-      "outputPath": "/Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/",
+      "projectPath": "C:\\Users\\Gamer\\Documents\\gamer directories\\university stuff\\ODA\\ODA1\\Accounts\\Accounts.csproj",
+      "packagesPath": "C:\\Users\\Gamer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gamer\\Documents\\gamer directories\\university stuff\\ODA\\ODA1\\Accounts\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/daviddavid/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Gamer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "/Users/daviddavid/RiderProjects/FinanceTracker/Profile/Profile.csproj": {
-              "projectPath": "/Users/daviddavid/RiderProjects/FinanceTracker/Profile/Profile.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -87,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

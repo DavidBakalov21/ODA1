@@ -10,3 +10,11 @@
 /Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/Accounts.pdb
 /Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/ref/Accounts.dll
 /Users/daviddavid/RiderProjects/FinanceTracker/Accounts/obj/Debug/net8.0/Accounts.sourcelink.json
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\Accounts\obj\Debug\net8.0\Accounts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\Accounts\obj\Debug\net8.0\Accounts.AssemblyInfoInputs.cache
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\Accounts\obj\Debug\net8.0\Accounts.AssemblyInfo.cs
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\Accounts\obj\Debug\net8.0\Accounts.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\Accounts\obj\Debug\net8.0\Accounts.sourcelink.json
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\Accounts\obj\Debug\net8.0\Accounts.dll
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\Accounts\obj\Debug\net8.0\refint\Accounts.dll
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\Accounts\obj\Debug\net8.0\Accounts.pdb

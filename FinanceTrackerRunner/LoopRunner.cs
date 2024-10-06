@@ -3,25 +3,34 @@ using Accounts;
 public interface ILoopRunner
 {
     void RunLoop();
-    AccountsOrganizer Organizer { get; }
     CommandParser Parser { get; }
 }
-public class LoopRunner:ILoopRunner
+
+//ROADBLOCKS:
+//1) With our current structure, in order to implement user profiles we
+//   need to rewrite the logic of LoopRunner and CommandExecutor.
+//2) One of the ideas we have is to rewrite CommandExecutor in a way
+//   that all the needed data it normally retrieves from the member
+//   variable AccountsOrganizer is passed to it so that Executor
+//   doesn't know about the existence of AccountsOrganizer.
+//3) What do we do about DIRECT organizer method calls in Executor???
+
+public class LoopRunner : ILoopRunner
 {
-    public AccountsOrganizer Organizer { get; }
+    public ProfileOrganizer profileOrganizer { get; set; }
     private CommandExecutor Executor { get; }
-    public LoopRunner(AccountsOrganizer accountsOrganizer)
+    public LoopRunner(ProfileOrganizer organizer)
     {
-        Organizer = accountsOrganizer;
+        profileOrganizer = organizer;
         Executor = new CommandExecutor(); 
-        Executor.SetOrganizer(accountsOrganizer);
+        //Executor.SetOrganizer(); <--- figure out what to do with the fact that this has AccOrganizer as a member var.
     }
     
     public CommandParser Parser { get; } = new CommandParser();
-    public void RunLoop() 
+    public void RunLoop()
     {
         String userInput = "";
-        Organizer.LoadAccounts();
+        profileOrganizer.accountsOrganizer.LoadAccounts();
 
         Console.WriteLine("Enter account name: ");
         userInput = Console.ReadLine();
@@ -92,8 +101,6 @@ public class LoopRunner:ILoopRunner
                     break;
                 }
             }
-        }
-       
+        } 
     }
-
 }

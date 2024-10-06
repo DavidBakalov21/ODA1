@@ -2,20 +2,17 @@ namespace Accounts;
 
 public interface IProfile
 {
-    Plan plan { get; set; }
-    String Name {get; set;}
-    AccountsOrganizer Organizer {get; set;}
-    
+    Plan plan {get; set;}
+    String name {get; set;}
 }
 public class Profile: IProfile
 {
     public Plan plan { get; set; }
-   public string Name { get; set; }
-    public AccountsOrganizer Organizer { get; set; }
+    public string name { get; set; }
 
-  public Profile(String name, AccountsOrganizer organizer)
+  public Profile(String name, Plan plan)
   {
-      this.Name = name;
-      this.Organizer = organizer;
+      this.name = name;
+      this.plan = plan;
   }
 }

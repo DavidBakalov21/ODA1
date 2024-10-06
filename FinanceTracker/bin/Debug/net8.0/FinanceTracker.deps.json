@@ -18,10 +18,7 @@
       },
       "Accounts/1.0.0": {
         "runtime": {
-          "Accounts.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Accounts.dll": {}
         }
       },
       "DB/1.0.0": {
@@ -29,10 +26,7 @@
           "Accounts": "1.0.0"
         },
         "runtime": {
-          "DB.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "DB.dll": {}
         }
       },
       "FinanceTrackerRunner/1.0.0": {
@@ -41,10 +35,7 @@
           "DB": "1.0.0"
         },
         "runtime": {
-          "FinanceTrackerRunner.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "FinanceTrackerRunner.dll": {}
         }
       }
     }

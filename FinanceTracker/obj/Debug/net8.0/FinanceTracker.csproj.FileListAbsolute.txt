@@ -21,3 +21,26 @@
 /Users/daviddavid/RiderProjects/FinanceTracker/FinanceTracker/bin/Debug/net8.0/FinanceTrackerRunner.dll
 /Users/daviddavid/RiderProjects/FinanceTracker/FinanceTracker/bin/Debug/net8.0/FinanceTrackerRunner.pdb
 /Users/daviddavid/RiderProjects/FinanceTracker/FinanceTracker/obj/Debug/net8.0/FinanceTracker.sourcelink.json
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\obj\Debug\net8.0\FinanceTracker.csproj.AssemblyReference.cache
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\obj\Debug\net8.0\FinanceTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\obj\Debug\net8.0\FinanceTracker.AssemblyInfoInputs.cache
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\obj\Debug\net8.0\FinanceTracker.AssemblyInfo.cs
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\obj\Debug\net8.0\FinanceTracker.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\obj\Debug\net8.0\FinanceTracker.sourcelink.json
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\obj\Debug\net8.0\FinanceTracker.dll
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\obj\Debug\net8.0\refint\FinanceTracker.dll
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\obj\Debug\net8.0\FinanceTracker.pdb
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\bin\Debug\net8.0\FinanceTracker.exe
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\bin\Debug\net8.0\FinanceTracker.deps.json
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\bin\Debug\net8.0\FinanceTracker.runtimeconfig.json
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\bin\Debug\net8.0\FinanceTracker.dll
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\bin\Debug\net8.0\FinanceTracker.pdb
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\bin\Debug\net8.0\Accounts.dll
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\bin\Debug\net8.0\DB.dll
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\bin\Debug\net8.0\FinanceTrackerRunner.dll
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\bin\Debug\net8.0\Accounts.pdb
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\bin\Debug\net8.0\DB.pdb
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\bin\Debug\net8.0\FinanceTrackerRunner.pdb
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\obj\Debug\net8.0\FinanceTracker.csproj.CopyComplete
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\obj\Debug\net8.0\FinanceTracker.genruntimeconfig.cache
+C:\Users\Gamer\Documents\gamer directories\university stuff\ODA\ODA1\FinanceTracker\obj\Debug\net8.0\ref\FinanceTracker.dll
